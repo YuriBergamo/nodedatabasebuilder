@@ -1,0 +1,17 @@
+{
+  "name": "bvtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --max-old-space-size=8192 --optimize-for-size index.js"
+  },
+  "author": "Yuri Bergamo",
+  "license": "ISC",
+  "dependencies": {
+    "csv-export": "^1.0.1",
+    "mongoose": "^4.9.1",
+    "xlsx": "^0.9.5"
+  }
+}
